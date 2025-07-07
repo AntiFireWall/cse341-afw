@@ -1,0 +1,5 @@
+### GET all users
+GET https://cse341-afw-api.onrender.com/users
+
+### GET user by id
+GET https://cse341-afw-api.onrender.com/users/686ba3a93c4e232742ec7a35
