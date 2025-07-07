@@ -12,8 +12,6 @@ const getAll = async (req,res) => {
 }
 
 const getSingle = async (req,res) => {
-    // const testId = '686ba3a93c4e232742ec7a35'
-    console.log(req.params.id)
     const userId = ObjectId.createFromHexString(req.params.id);    
     const result = await mongodb.getDatabase().db().collection('users').find({_id: userId});
     result.toArray().then((users) => {
