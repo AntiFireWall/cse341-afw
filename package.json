@@ -1,0 +1,26 @@
+{
+  "name": "cse341-afw",
+  "version": "1.0.0",
+  "description": "CSE341 Project",
+  "homepage": "https://github.com/AntiFireWall/cse341-afw#readme",
+  "bugs": {
+    "url": "https://github.com/AntiFireWall/cse341-afw/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntiFireWall/cse341-afw.git"
+  },
+  "license": "ISC",
+  "author": "Dan",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1",
+    "nodemon": "^3.1.10"
+  }
+}
