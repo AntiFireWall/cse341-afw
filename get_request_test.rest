@@ -2,4 +2,26 @@
 GET https://cse341-afw-api.onrender.com/users
 
 ### GET user by id
-GET https://cse341-afw-api.onrender.com/users/686ba3a93c4e232742ec7a35
+GET https://cse341-afw-api.onrender.com/users/68771ee8c0fce3cc277e0505
+
+### Create User
+POST https://cse341-afw-api.onrender.com/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Mack",
+  "lastName": "Loon",
+  "favoriteColor": "cyan",
+  "birthday": "1999-05-18"
+}
+
+### Updata User
+PUT https://cse341-afw-api.onrender.com/users/68771de5c0fce3cc277e0504 HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Dock",
+  "lastName": "Normal",
+  "favoriteColor": "black",
+  "birthday": "1996-10-08"
+}
